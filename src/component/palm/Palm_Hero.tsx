@@ -4,8 +4,8 @@ import Hero from "../../assets/images/palm-hero.png";
 
 const HomePage = () => {
   return (
-    <div className="text-gray-800">
-      <section className="relative h-[80vh] md:h-[90vh] text-white flex items-center overflow-hidden">
+    <div className="text-gray-800 h-screen w-full">
+      <section className="relative h-full w-full text-white flex items-center overflow-hidden">
         <img
           src={Hero}
           alt="Aluvihara Rock Temple"
@@ -13,10 +13,10 @@ const HomePage = () => {
         />
         <div className="absolute left-0  bottom-1/2 transform translate-y-1/2 z-20 bg-black/50 px-6 md:px-20 py-6 md:py-10 text-left">
           <h2 className="text-3xl md:text-4xl font-light">
-            <span className="text-yellow-400 font-semibold">The</span>
+            <span className="text-primary font-semibold">The</span>
           </h2>
           <h1 className="text-4xl md:text-6xl font-light">
-            <span className="text-white font-semibold">Timeless Legacy</span>
+            <span className="text-white">Timeless Legacy</span>
           </h1>
         </div>
       </section>

@@ -24,7 +24,7 @@ const PalmLeaves: React.FC = () => {
         <Signatures/>
 
 
-            {/* footer section */}
+      {/* footer section */}
       <div className="mt-30">
         <footer className="bg-[#222222] py-10">
           <Footer />
